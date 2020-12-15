@@ -1,6 +1,6 @@
 
 <?php
-$mysqli = new mysqli("localhost","root","","techcake");
+$mysqli = new mysqli();//Pass Db name,and MySQL Crednitials 
 
 // Check connection
 if ($mysqli -> connect_errno) {
